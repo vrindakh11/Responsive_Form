@@ -1,16 +1,66 @@
-# React + Vite
+# Responsive Registration Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive registration form built using React and Vite.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive Design
+- First Name & Last Name
+- State Input
+- Contact Number
+- Email Validation
+- Gender Selection
+- Form Submission
+- Success Message with User's Full Name
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- HTML
+- CSS
+- JavaScript
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+Responsive_Form/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Form.jsx
+│   │   └── Form.css
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## Installation
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
+
+## Output
+
+- User fills the registration form.
+- On clicking **Submit**, the application displays:
+
+```
+🎉 Form Submitted Successfully!
+
+Welcome, Full Name
+```
+
+## Author
+
+Vrinda Khandelwal
